@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "temp-monitor"
+    }
+  },
+  "defaultProject": "temp-monitor",
+  "cli": {
+    "analytics": "af1f1ee9-b7ea-4964-9a3e-7236c9b962dc"
+  }
 }

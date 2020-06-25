@@ -1,0 +1,22 @@
+<div class="row w-100 h-100">
+  <div class="col-md-4">
+    <h3 class="text-white text-center">{{datenow | date:'long'}}</h3>
+    <app-temp-card [tempc]="tempnowC" [tempf]="tempnowF"></app-temp-card>
+
+    <div class="mt-5">
+      <div *ngFor="let temp of othertemps" class="card shadow-sm bg-light border rounded-lg mx-auto p-1 w-50 my-1">
+        <div class="row">
+          <h3 class="mx-auto text-dark">{{temp.temp}} C</h3>
+          <h3 class="mx-auto text-dark">{{ (temp.temp * 9/5) + 32.0}} F</h3>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <div class="col-md-4 bg-secondary">
+
+  </div>
+  <div class="col-md-4 bg-info">
+
+  </div>
+</div>
