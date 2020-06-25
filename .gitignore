@@ -45,4 +45,4 @@ testem.log
 .DS_Store
 Thumbs.db
 
-/src/envinronments/firebaseapi.ts
+/src/environments/firebaseapi.ts
