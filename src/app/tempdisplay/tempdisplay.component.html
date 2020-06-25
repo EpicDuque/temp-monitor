@@ -5,18 +5,23 @@
 
     <div class="mt-5">
       <div *ngFor="let temp of othertemps" class="card shadow-sm bg-light border rounded-lg mx-auto p-1 w-50 my-1">
+        <!-- <h5 class="text-muted text-center">{{temp.time | date}}</h5> -->
         <div class="row">
-          <h3 class="mx-auto text-dark">{{temp.temp}} C</h3>
-          <h3 class="mx-auto text-dark">{{ (temp.temp * 9/5) + 32.0}} F</h3>
+          <h4 class="mx-auto text-dark">{{temp.temp}} C</h4>
+          <h4 class="mx-auto text-dark">{{ (temp.temp * 9/5) + 32.0}} F</h4>
         </div>
       </div>
     </div>
     
   </div>
-  <div class="col-md-4 bg-secondary">
 
+  <div class="col-md-4">
+    <div class="rounded mt-4">
+      <div id="chartContainer" style="height: 370px; width: 100%; margin-left:auto;margin-right:auto;"></div>
+    </div>
   </div>
-  <div class="col-md-4 bg-info">
+
+  <div class="col-md-4">
 
   </div>
 </div>
