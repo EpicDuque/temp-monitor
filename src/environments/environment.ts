@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   firebaseConfig: {
-    apiKey: "AIzaSyDEBBFWKVQivDcZBYnR6-AEEgc322A7na4",
+    apiKey: "",
     authDomain: "weather-db-b9f9a.firebaseapp.com",
     databaseURL: "https://weather-db-b9f9a.firebaseio.com",
     projectId: "weather-db-b9f9a",
